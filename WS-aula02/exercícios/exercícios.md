@@ -1,0 +1,13 @@
+1) Crie um arquivo PHP chamado functions.php, que deve conter uma biblioteca de funções para realizar operações sobre arrays. Você deve criar funções para encontrar: o maior valor, menor valor, número de valores do array, média, ordenação e busca de um valor (retorna true ou false). Em seu arquivo index.php você deve importar esta biblioteca de funções e fazer testes nas funções com valores estáticos
+
+2) Faça um script PHP para ajudar Adão e Eva a saber quantas vitórias cada um obteve nos seus jogos de truco durante o semestre. As vitórias e derrotas de cada jogo são representadas por um array de números do tipo inteiro (0 representa vitórias da Eva e 1 representa as vitórias de Adão). Seu script PHP deve chamar a função checaResultado, passando o array e qual número deve ser contado como parâmetros e deve receber como retorno o número de vitórias (ocorrências) do valor no array. Exemplo:
+    a) $adao = checaResultado([0, 0, 0, 0, 0, 1], 1); 
+       echo "Adão ganhou ${adao} vezes";
+
+3) Faça um script PHP que processa uma string no formato "Stark#Bran, Arya, Tony#Wolf" e gera um array associativo a partir desta string. O array com o resultado do processamento deve conter o seguinte formato ['family' => Stark, 'names' => ['Bran', 'Arya', 'Tony'], 'pet' => 'Wolf']. Ao final você deve renderizar esse array associativo no HTML com o seguinte formato:
+
+4) Faça um script PHP que defina uma matriz, imprima em uma página HTML no formato de table e, então, defina e use uma função para também mostrar no HTML esta matriz de forma transposta, ou seja, imprimir a matriz com linhas e colunas invertidas. 
+
+5) Faça um script PHP que processa as vendas do mês de 5 vendedores de uma loja (em reais), armazenadas em uma matriz (ou seja, um array de 5 vendedores x 4 semanas do mês). Seu script deve calcular e mostrar no HTML: a) total de vendas do mês de cada vendedor; b) total de vendas de cada semana (todos os vendedores juntos) no formato de um table; c) total de vendas do mês da empresa.
+
+6) Brasileirão. Crie um script PHP que imprima na tela a tabela do brasileirão. Para isso, você deve incluir a biblioteca chamada tabela.php (disponível no Moodle). Esta biblioteca irá fornecer duas variáveis do tipo array: $equipes e $classificacao. Você deve explorar o conteúdo destes arrays usando var_dump e então deve montar a tabela de classificação dinamicamente com PHP, iterando sobre esses dois arrays, conforme a imagem a seguir:
